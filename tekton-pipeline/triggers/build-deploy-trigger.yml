@@ -67,7 +67,7 @@ metadata:
   name: tekton-argocd-example-build-git-tb
 spec:
   params:
-  - name: url
+  - name: git-app-repo-url
     # Replace with path to the JSON resource you want, based on the Git provider that you're using (e.g. for AzureDevOps: resource.repository.remoteUrl)
     value: $(body.url)
   - name: git-app-repo-revision
