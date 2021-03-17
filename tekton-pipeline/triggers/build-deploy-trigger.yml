@@ -95,4 +95,4 @@ metadata:
   name: tekton-argocd-example-build-el-mapping
 spec:
   prefix: /tekton-argocd-example-build-mapping/
-  service: tekton-argocd-example-build-el:8443
+  service: tekton-triggers-webhook:8443
