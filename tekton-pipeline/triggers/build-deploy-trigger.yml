@@ -95,4 +95,4 @@ metadata:
   name: tekton-argocd-example-build-el-mapping
 spec:
   prefix: /tekton-argocd-example-build-mapping/
-  service: tekton-pipelines-webhook:8080
+  service: el-tekton-argocd-example-build-el:8080
